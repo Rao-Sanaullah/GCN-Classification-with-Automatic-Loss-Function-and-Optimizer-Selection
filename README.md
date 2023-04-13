@@ -13,7 +13,7 @@
  
   - Our visualization tool provides users with the capability to observe the GCN model's behavior in real-time while using various combinations of optimizers, loss functions, and learning rates. This feature enables users to evaluate the impact of each hyperparameter on the model's performance and quickly determine the best combination for their specific use case. The real-time monitoring of the model's performance with different hyperparameters provides users with valuable insights into its behavior and how it responds to changes in data or hyperparameters. Our visualization tool, as illustrated in Figure, offers a dynamic and interactive approach to comprehend the model's behavior during training. Users can explore the model's performance by adjusting hyperparameters in real-time and observe how the model reacts to these changes. This allows users to experiment with various configurations and gain a deeper understanding of how the model operates and what is required for optimal performance. Hence, this real-time visualization is an effective tool for understanding the GCN model's behavior, identifying potential issues, and fine-tuning the model accordingly.
 
-![Real-Time Training Visualization]([https://github.com/Rao-Sanaullah/RAVSim/blob/main/Apr-06-22%20Time%2012%2049%2051.png](https://github.com/Rao-Sanaullah/GNN-Classification-with-Automatic-Loss-Function-and-Optimizer-Selection/blob/main/runtime.png))
+![Real-Time Training Visualization](https://github.com/Rao-Sanaullah/GNN-Classification-with-Automatic-Loss-Function-and-Optimizer-Selection/blob/main/runtime.png)
 
 # Dataset
 
