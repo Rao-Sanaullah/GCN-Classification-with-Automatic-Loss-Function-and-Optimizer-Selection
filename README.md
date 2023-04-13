@@ -1,9 +1,41 @@
 # Streamlined Training of GCN for Node Classification with Automatic Loss Function and Optimizer Selection
 
 
-Graph Neural Networks (GNNs) are specialized types of neural networks that process and learn from graph-structured data. For GNNs to perform optimally, it is crucial to automatically select the best loss and optimization functions. Doing so can save time and eliminate the need for domain-specific knowledge. Automatic selection of these functions is essential for GNNs to achieve state-of-the-art results. In this research, we trained Graph Convolutional Networks (GCNs) and Graph Attention Networks (GAT) models to classify nodes on three benchmark datasets. To select the best loss and optimization functions, we employed performance metrics and implemented a learning rate scheduler to enhance the model's performance. We assessed the model's performance using multiple metrics and reported the best loss function and performance metric. Our approach delivered state-of-the-art results and showcased the significance of selecting the appropriate loss and optimizer functions. Additionally, we developed a real-time visualization of the GCN model during training that provided users with an in-depth comprehension of the model's behavior. This study provides a comprehensive understanding of GNNs and their application to graph-structured data, focusing on real-time visualization of GNN behavior during training.
+- GNNs process and learn from graph-structured data, but optimal performance requires automatic selection of the best loss and optimization functions. In this research, we trained GCN and GAT models for node classification and used performance metrics to select optimal functions. We achieved state-of-the-art results and developed a real-time visualization tool for in-depth understanding of the model's behavior during training. Our study provides insights into the application of GNNs to graph-structured data.
 
 
 # Automatic Search and Selection of Best Functions
 
- - The proposed approach aims to enhance the performance of GNNs when processing data in graph structures. Instead of requiring domain-specific expertise or manual selection of functions, the architecture utilizes an automated selection process for loss and optimization functions. The selection process is based on an evaluation framework that considers multiple performance metrics for both loss and optimization functions. This comprehensive framework enables the selection of optimal functions, resulting in improved model performance on graph-structured data. By automating the selection process, the method provides a more efficient and effective way of selecting appropriate loss and optimization functions for GNNs. Additionally, the use of multiple performance metrics helps gain a better understanding of the model's behavior and performance, which can inform decisions about optimization and lead to better overall performance.
+ - Our proposed approach improves GNN performance on graph-structured data via an automated function selection process based on a comprehensive evaluation framework. This approach avoids manual function selection and requires no domain-specific expertise. The automated selection process is efficient and effective in selecting optimal functions, and multiple performance metrics aid in optimizing overall model performance.
+
+
+# Real-time Training Visualization
+ 
+  - Our visualization tool allows real-time observation of the GCN model's behavior using different hyperparameters. Users can determine the best combination for their specific use case and gain insights into how the model responds to changes. The tool provides a means of experimenting with configurations to optimize performance and identify potential issues.
+
+![Real-Time Training Visualization](https://github.com/Rao-Sanaullah/GNN-Classification-with-Automatic-Loss-Function-and-Optimizer-Selection/blob/main/runtime.png)
+
+# Dataset
+
+ - Our proposed architecture for citation networks was evaluated on carefully selected datasets, including Cora, CiteSeer, and PubMed. These datasets consist of publications classified into different classes, represented by binary or sparse vectors, with edges representing citation relationships.
+
+# Findings and Analysis
+
+ - Our proposed architecture achieved promising results by automating the selection of loss and optimization functions, improving the performance of GCN and GAT models. The GCN model outperformed the GAT model in accuracy for all three benchmark datasets, making it more suitable for citation network node classification tasks. Our approach was effective in improving GAN models' performance, as shown in detailed results for each test case in the figures.
+
+![Findings and Analysis](https://github.com/Rao-Sanaullah/GNN-Classification-with-Automatic-Loss-Function-and-Optimizer-Selection/blob/main/results.jpg)
+
+
+# Requirement:
+ - torch
+ - torch.nn.functional
+ - torch_geometric.datasets 
+ - Planetoid
+ - torch_geometric.nn 
+ - GCNConv
+ - GATConv
+ - matplotlib
+
+For any help, please contact
+
+Sanaullah (sanaullah@fh-bielefeld.de)
