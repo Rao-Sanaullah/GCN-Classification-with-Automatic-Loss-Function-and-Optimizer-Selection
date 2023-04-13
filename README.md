@@ -25,3 +25,7 @@
 
 ![Findings and Analysis](https://github.com/Rao-Sanaullah/GNN-Classification-with-Automatic-Loss-Function-and-Optimizer-Selection/blob/main/results.jpg)
 
+
+For any help, please contact
+
+Sanaullah (sanaullah@fh-bielefeld.de)
