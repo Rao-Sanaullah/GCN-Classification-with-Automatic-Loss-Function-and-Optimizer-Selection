@@ -26,6 +26,16 @@
 ![Findings and Analysis](https://github.com/Rao-Sanaullah/GNN-Classification-with-Automatic-Loss-Function-and-Optimizer-Selection/blob/main/results.jpg)
 
 
+- Requirement:
+    torch
+    torch.nn.functional
+    torch_geometric.datasets 
+    Planetoid
+    torch_geometric.nn 
+    GCNConv
+    GATConv
+    matplotlib
+
 For any help, please contact
 
 Sanaullah (sanaullah@fh-bielefeld.de)
