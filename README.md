@@ -1,1 +1,1 @@
-# Streamlined-Training-of-GCN-for-Node-Classification-with-Automatic-Loss-Function-and-Optimizer-Selec
+# Streamlined Training of GNN for Node Classification with Automatic Loss Function and Optimizer Selection
